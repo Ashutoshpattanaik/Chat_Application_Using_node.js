@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors in HTML</title>
+    <style>
+        h3 {
+            color: #b42929;
+            background-color: #e966ff;
+            font-size: 34px;
+            text-align: center;
+
+        }
+        /* if p is contained by any li which is containe by div */
+        /* div li p{
+            color: rgb(45, 56, 113);
+            background-color: rgb(56, 243, 231);
+        }
+/*  */
+        /* div > p {
+            color: rgb(45, 56, 113);
+            background-color: rgb(56, 243, 231);
+            font-weight: bolder; */
+/* 
+        } */ */
+        div + p {
+            color: rgba(185, 185, 185, 0.562);
+            background-color: rgb(86, 47, 215);
+            font-weight: bolder;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is more on selectors</h3>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is another paragraph inside li</p>
+                </li>
+                <li>This will not be affected</li>
+            </ul>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+
+</html>

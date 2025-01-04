@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh's GYM</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Noto+Sans&family=Oswald:wght@200;400&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="tut26.css">
+<style>
+    body {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: rgb(201 223 92);
+        margin: 0px;
+        padding: 0px;
+        background: url(https://plus.unsplash.com/premium_photo-1661581883460-8f78fb34e2ca?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRoZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D);
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid rgb(87, 121, 40); */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(210, 241, 53); */
+
+
+
+    }
+
+    .left img {
+        width: 157px;
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid goldenrod; */
+    }
+
+    .navbar {
+
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .left div {
+        text-align: center;
+
+
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: azure;
+
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: aliceblue;
+        padding: 4px 1px;
+        /* border: 2px solid rgba(159, 164, 26, 0.747); */
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn :hover {
+        background-color: rgba(84, 55, 55, 0.786);
+    }
+
+    .container {
+        /* border: 2px solid lavenderblush; */
+        margin: 140px 115px;
+        padding: 21px 44px;
+        width: 34%;
+        border-radius: 2px;
+    }
+
+    .form-group input {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        display: block;
+        width: 343px;
+        padding: 16px;
+        border: 32px;
+        margin: 25px auto;
+        border-radius: 53px;
+    }
+
+    .container-group h3 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 117px;
+        margin: 20px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://graphicriver.img.customer.envatousercontent.com/files/240737110/preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=4f52c3c688961af9e6204eb54d55f5e1"
+                alt="">
+            <div>Ashutosh Fitness</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+
+        </div>
+
+
+
+
+    </header>
+    <div class="container">
+        <h3>Join The Most Premium GYM of Bhubaneswar </h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your PhoneNo">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Emailid">
+
+            </div>
+            <button class="btn">submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

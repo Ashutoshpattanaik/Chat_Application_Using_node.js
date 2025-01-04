@@ -1,0 +1,17 @@
+	Create different classes as an hierarchy of the university roles like Faculty -> HoD -> Dean ->VC. Each class must have some distinct state and behavior. The fact that, HoD is also a faculty or Dean is also a faculty should be taken care of. 
+	
+	Implement a class hierarchy for different types of vehicles, including Car, Bicycle, and Motorcycle. Include common properties like speed and methods like start and stop.
+	
+	Design a class Employee with attributes like employeeId, name, and salary. Derive classes Manager and Clerk with additional attributes.
+	Create a class to display the family tree. All the members are to be created using separate classes and methods.
+	
+	Library System: Create a class hierarchy for a library system with classes such as LibraryItem, Book, DVD, and Journal.
+Implement methods for checking out and returning items.
+
+	Java doesn't support multiple inheritance. Justify the authenticity of the statement with an example
+	
+	Create an abstract class Bird with abstract methods fly() and sing(). Derive two classes Sparrow and Penguin from Bird. Implement the abstract methods in each derived class. 
+	
+	Create a class Shape with a method calculateArea(). Derive classes Circle and Rectangle. Override calculateArea() in both derived classes.
+	
+	Create an Interface demonstrating the access modifiers provided to the variables and methods by default in java.
